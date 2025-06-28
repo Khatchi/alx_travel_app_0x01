@@ -1,8 +1,11 @@
 venv/
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-db.sqlite3
+.env/
+# migrations
 migrations/
+# database
+*.sqlite3
+#pycache
+__pycache__/
+
+#environment variables
+.env
